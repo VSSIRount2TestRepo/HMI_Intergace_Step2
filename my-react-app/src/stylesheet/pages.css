@@ -1,0 +1,15 @@
+div.main-panel {
+    display: block;
+    position: relative;
+    width: 30%;
+    height: 200px;
+    background-color: #687388;
+    margin: 1em auto;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+div.file-name-component {
+    display: block;
+    position: relative;
+}

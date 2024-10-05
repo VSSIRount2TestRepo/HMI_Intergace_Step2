@@ -1,0 +1,16 @@
+div#side-bar {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    width: 30%;
+    min-height: 1000px;
+    background-color: #142445;
+}
+
+button.view-btn {
+    display: flex;
+    position: relative;
+    width: 10em;
+    height: 4em;
+    margin: 1em auto;
+}

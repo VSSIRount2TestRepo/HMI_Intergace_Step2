@@ -1,0 +1,16 @@
+div#navigation_bar {
+    display: flex;
+    position: relative;
+    width: 100%;
+    top: 0;
+    padding: 2em 0 0 2em;
+    justify-content: space-around;
+    background-color: #5eaabd;
+}
+
+button.page-select-btn {
+    display: flex;
+    position: relative;
+    margin: 3em 0;
+    text-align: center;
+}
