@@ -25,8 +25,6 @@ Postman 파일은 `./postman-collection/` 에서 확인 가능
 - 주소: localhost
 - 포트: 4000
 
-POST
-
 ## 실행 방법
 
 1.  먼저 `./server/` 로 서버 패키지를 설치한 뒤 실행한다.
