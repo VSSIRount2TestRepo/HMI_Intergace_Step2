@@ -14,8 +14,11 @@ Step2 과제
 Postman 파일은 `./postman-collection/` 에서 확인 가능
 
 이미지 파일 리스트 GET `http://localhost:3000/getImgFiles`
+
 문서 파일 리스트 GET `http://localhost:3000/getDocFiles`
+
 이미지 파일 POST `http://localhost:3000/uploadImg`, body에 form-data 형식으로 파일 첨부
+
 문서 파일 POST `http://localhost:3000/uploadDoc`, body에 form-data 형식으로 파일 첨부
 
 ### 웹 어플리케이션
