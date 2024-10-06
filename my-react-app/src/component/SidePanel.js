@@ -82,7 +82,7 @@ function SidePanel(props) {
                 onClick={()=> navigate("/docUpload")}
                 onChange={handleCSVFileUpload}
             />
-            <button onClick={handleCSVClick}>CSV 파일 등록</button>
+            <button className={"view-btn"} onClick={handleCSVClick}>CSV 파일 등록</button>
             <input
                 type="file"
                 style={{display: 'none'}}
@@ -90,7 +90,7 @@ function SidePanel(props) {
                 onClick={()=> navigate("/imgUpload")}
                 onChange={handleImgFileUpload}
             />
-            <button onClick={handleImageClick}>이미지 등록</button>
+            <button className={"view-btn"} onClick={handleImageClick}>이미지 등록</button>
         </div>
 
     );

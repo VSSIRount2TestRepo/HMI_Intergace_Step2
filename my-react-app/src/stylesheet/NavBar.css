@@ -2,15 +2,18 @@ div#navigation_bar {
     display: flex;
     position: relative;
     width: 100%;
+    min-height: 10vh;
+    /* Remove height to let container grow with content */
     top: 0;
-    padding: 2em 0 0 2em;
-    justify-content: space-around;
+    padding: 1em 0 1em 0;
+    margin: 0;
+    justify-content: space-around; /* space navbar items evenly */
+    align-items: center; /* vertically center navbar items */
+    flex-wrap: nowrap; /* Prevent wrapping onto next line */
     background-color: #5eaabd;
 }
 
-button.page-select-btn {
-    display: flex;
-    position: relative;
-    margin: 3em 0;
-    text-align: center;
+h1.nav_title {
+    font-size: 2rem; /* Adjust as needed, if too large, it will go outside of nav bar */
+    margin: 1em auto;
 }

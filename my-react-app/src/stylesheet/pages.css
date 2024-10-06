@@ -7,9 +7,21 @@ div.main-panel {
     margin: 1em auto;
     overflow-y: auto;
     scroll-behavior: smooth;
+    padding: 1em;
+    border-radius: 10px;
 }
 
 div.file-name-component {
     display: block;
     position: relative;
+    font-size: 15px; /* Adjust as needed, if too large, it will go outside of nav bar */
+    margin: 2px auto;
+    border: 2px solid #282c34;
+    border-radius: 5px;
+    background-color: #44516b;
+}
+
+div.file-name-component:hover {
+    background-color: #6B7280;
+    transition-duration: 0.5s;
 }
